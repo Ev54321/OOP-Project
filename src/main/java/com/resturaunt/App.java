@@ -34,11 +34,16 @@ public class App extends Application {
     public static void main(String[] args) {
 
         //create Salad
-        Salad salad1 = new Salad("Iceberg lettuce", "ranch");
+        Salad salad1 = new Salad("Iceberg lettuce", "ranch", 6.34);
         
         System.out.println("Hello");
         System.out.println(salad1);
 
+        //create Sandwhich
+        Sandwhich sandwhich1 = new Sandwhich("sourdough", "salami", "tomatoes", "french fries", 11.55);
+
+        System.out.println();
+        System.out.print(sandwhich1);
         launch();
     }
 
