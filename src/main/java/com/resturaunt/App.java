@@ -36,14 +36,20 @@ public class App extends Application {
         //create Salad
         Salad salad1 = new Salad("Iceberg lettuce", "ranch", 6.34);
         
-        System.out.println("Hello");
+        System.out.println();
         System.out.println(salad1);
 
         //create Sandwhich
         Sandwhich sandwhich1 = new Sandwhich("sourdough", "salami", "tomatoes", "french fries", 11.55);
 
         System.out.println();
-        System.out.print(sandwhich1);
+        System.out.println(sandwhich1);
+
+        //tell total profits
+        totalProfits totalProfits1 = new totalProfits(50, 9.50);
+        System.out.println();
+        System.out.println(totalProfits1);
+        
         launch();
     }
 
