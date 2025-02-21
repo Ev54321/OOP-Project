@@ -46,9 +46,9 @@ public class App extends Application {
         System.out.println(sandwhich1);
 
         //tell total profits
-        totalProfits totalProfits1 = new totalProfits(50, 9.50);
+        Bill Bill1 = new Bill(50, 9.50, 6.00, "Bob Ross");
         System.out.println();
-        System.out.println(totalProfits1);
+        System.out.println(Bill1);
         
         launch();
     }
