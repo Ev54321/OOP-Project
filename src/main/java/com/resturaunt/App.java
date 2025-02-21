@@ -33,6 +33,12 @@ public class App extends Application {
 
     public static void main(String[] args) {
 
+
+        //ordering drink
+        Drink drink1 = new Drink(true, false, "Coke", 3.00);
+        System.out.println();
+        System.out.println(drink1);
+
         //create Salad
         Salad salad1 = new Salad("Iceberg lettuce", "ranch", 6.34);
         
