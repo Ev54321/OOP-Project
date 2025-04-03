@@ -17,6 +17,6 @@ public class Bill {
     
     public String toString()
     {
-        return "Your Id is  required to confirm purchase. " + "Thank you " +  Id + ", your bill came out to be " + Customer*mealCost + "$ plus tip " + Tip + "$ Your total is " + (Customer*mealCost + Tip);
+        return "Your Id is  required to confirm purchase. " + "Thank you " +  Id + ", your bill came out to be " + Customer*mealCost + "$ plus tip " + Tip + "$ Your total is $" + (Customer*mealCost + Tip);
     }
 }
