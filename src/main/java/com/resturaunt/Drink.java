@@ -16,7 +16,7 @@ public class Drink {
 
     public String toString()
     {
-        return "Did you  order a corbonated drink? " + isCarbonated + ". You ordered a " + Brand + ". The drink will cost " + drinkCost + "$";
+        return "Did you  order a corbonated drink? " + isCarbonated + ". You ordered a " + Brand + ". The drink will cost $" + drinkCost;
     }
 }
 

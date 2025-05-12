@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
@@ -10,108 +9,113 @@
 <?import javafx.scene.text.Font?>
 
 
-<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.PrimaryController.fxml">
    <children>
-      <Label text="Online Order">
-         <font>
-            <Font size="32.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../Downloads/Add%20a%20heading%20(1).png" />
-         </image>
-      </ImageView>
-      <HBox prefHeight="2.0" prefWidth="600.0">
+      <HBox alignment="CENTER" prefHeight="58.0" prefWidth="600.0">
          <children>
-            <Label text="Sandwich">
+            <Label text="Crown Cafe" textAlignment="CENTER">
                <font>
-                  <Font size="24.0" />
+                  <Font size="30.0" />
                </font>
-               <HBox.margin>
-                  <Insets bottom="5.0" left="15.0" />
-               </HBox.margin>
-            </Label>
-            <Label text="Salad">
-               <font>
-                  <Font size="24.0" />
-               </font>
-               <HBox.margin>
-                  <Insets left="70.0" />
-               </HBox.margin>
             </Label>
          </children>
       </HBox>
-      <HBox prefHeight="2.0" prefWidth="600.0">
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
          <children>
-            <Button mnemonicParsing="false" text="Add to Order">
-               <font>
-                  <Font size="18.0" />
-               </font>
-               <HBox.margin>
-                  <Insets left="5.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Add to Order">
-               <font>
-                  <Font size="18.0" />
-               </font>
-               <HBox.margin>
-                  <Insets left="20.0" />
-               </HBox.margin>
-            </Button>
+            <ImageView fx:id="logoImage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/Add%20a%20heading.png" />
+               </image>
+            </ImageView>
          </children>
       </HBox>
-      <HBox prefHeight="14.0" prefWidth="291.0">
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0">
          <children>
-            <Label text="Burger">
-               <font>
-                  <Font size="24.0" />
-               </font>
-               <HBox.margin>
-                  <Insets bottom="5.0" left="30.0" />
-               </HBox.margin>
-            </Label>
-            <Label text="Toast">
-               <font>
-                  <Font size="24.0" />
-               </font>
-               <HBox.margin>
-                  <Insets left="85.0" />
-               </HBox.margin>
-            </Label>
-         </children>
-         <VBox.margin>
-            <Insets top="10.0" />
-         </VBox.margin>
-      </HBox>
-      <HBox prefHeight="2.0" prefWidth="600.0">
-         <children>
-            <Button mnemonicParsing="false" text="Add to Order">
-               <font>
-                  <Font size="18.0" />
-               </font>
-               <HBox.margin>
-                  <Insets left="5.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Add to Order">
-               <font>
-                  <Font size="18.0" />
-               </font>
-               <HBox.margin>
-                  <Insets left="20.0" />
-               </HBox.margin>
-            </Button>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Salad">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Burger">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
          </children>
       </HBox>
-      <Label text="Your Order">
-         <VBox.margin>
-            <Insets top="10.0" />
-         </VBox.margin>
-         <font>
-            <Font size="25.0" />
-         </font>
-      </Label>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="addOrderButton1" mnemonicParsing="false" text="Add to Order">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="addOrderButton2" mnemonicParsing="false" text="Add to Order">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Spaghetti">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Sandwich">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="addOrderButton3" mnemonicParsing="false" text="Add to Order">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="addOrderButton4" mnemonicParsing="false" text="Add to Order">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
    </children>
 </VBox>
