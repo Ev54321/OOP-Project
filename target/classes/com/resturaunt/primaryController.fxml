@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.PrimaryController.fxml">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.PrimaryController">
    <children>
-      <HBox alignment="CENTER" prefHeight="58.0" prefWidth="600.0">
+      <HBox alignment="CENTER" prefHeight="25.0" prefWidth="600.0">
          <children>
-            <Label text="Crown Cafe" textAlignment="CENTER">
+            <Label text="Crown Cafe">
                <font>
-                  <Font size="30.0" />
+                  <Font size="25.0" />
                </font>
             </Label>
          </children>
@@ -24,97 +25,161 @@
          <children>
             <ImageView fx:id="logoImage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../Downloads/Add%20a%20heading.png" />
+                  <Image url="@../../../../../../../../../Downloads/Add%20a%20heading%20(1).png" />
                </image>
             </ImageView>
          </children>
       </HBox>
-      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0">
+      <HBox alignment="CENTER" prefHeight="47.0" prefWidth="550.0">
          <children>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <VBox alignment="CENTER" prefHeight="61.0" prefWidth="140.0">
                <children>
-                  <Label text="Salad">
+                  <Label text="Soda">
                      <font>
-                        <Font size="25.0" />
+                        <Font size="20.0" />
                      </font>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                   </Label>
+                  <Button fx:id="addSodaButton" mnemonicParsing="false" text="Button" />
                </children>
-            </HBox>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <opaqueInsets>
+                  <Insets right="10.0" />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="85.0" prefWidth="140.0">
+               <children>
+                  <Label text="Water">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                  </Label>
+                  <Button fx:id="addWaterButton" mnemonicParsing="false" text="Button" />
+               </children>
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="47.0" prefWidth="550.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="61.0" prefWidth="140.0">
                <children>
                   <Label text="Burger">
                      <font>
-                        <Font size="25.0" />
+                        <Font size="20.0" />
                      </font>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                   </Label>
+                  <Button fx:id="addBurgerButton" mnemonicParsing="false" text="Button" />
                </children>
-            </HBox>
-         </children>
-      </HBox>
-      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0">
-         <children>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <opaqueInsets>
+                  <Insets right="10.0" />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="85.0" prefWidth="140.0">
                <children>
-                  <Button fx:id="addOrderButton1" mnemonicParsing="false" text="Add to Order">
+                  <Label text="Salad">
                      <font>
                         <Font size="20.0" />
                      </font>
-                  </Button>
-               </children>
-            </HBox>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <Button fx:id="addOrderButton2" mnemonicParsing="false" text="Add to Order">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                  </Button>
-               </children>
-            </HBox>
-         </children>
-      </HBox>
-      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0">
-         <children>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <Label text="Spaghetti">
-                     <font>
-                        <Font size="25.0" />
-                     </font>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                   </Label>
+                  <Button fx:id="addSaladButton" mnemonicParsing="false" text="Button" />
                </children>
-            </HBox>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="47.0" prefWidth="550.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="61.0" prefWidth="140.0">
                <children>
                   <Label text="Sandwich">
                      <font>
-                        <Font size="25.0" />
+                        <Font size="20.0" />
                      </font>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                   </Label>
+                  <Button fx:id="addSandwichButton" mnemonicParsing="false" text="Button" />
                </children>
-            </HBox>
+               <opaqueInsets>
+                  <Insets right="10.0" />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="85.0" prefWidth="140.0">
+               <children>
+                  <Label text="Spaghetti">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                  </Label>
+                  <Button fx:id="addSpaghettiButton" mnemonicParsing="false" text="Button" />
+               </children>
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </VBox>
          </children>
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
       </HBox>
-      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0">
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
          <children>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="358.0">
                <children>
-                  <Button fx:id="addOrderButton3" mnemonicParsing="false" text="Add to Order">
+                  <TextField fx:id="seedText" alignment="CENTER" promptText="Enter Name for Order">
                      <font>
-                        <Font size="20.0" />
+                        <Font size="15.0" />
                      </font>
-                  </Button>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Button fx:id="payButton" mnemonicParsing="false" prefWidth="180.0" text="Pay now" />
                </children>
-            </HBox>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <Button fx:id="addOrderButton4" mnemonicParsing="false" text="Add to Order">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                  </Button>
-               </children>
-            </HBox>
+            </VBox>
          </children>
       </HBox>
    </children>
