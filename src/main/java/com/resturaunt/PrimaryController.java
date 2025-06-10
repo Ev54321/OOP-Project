@@ -6,15 +6,34 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 
+
 public class PrimaryController {
-    ImageView logoImage = new ImageView();
+
+    @FXML
+    private ImageView logoimage;
+
+    @FXML
     Button addSodaButton = new Button();
+
+    @FXML
     Button addWaterButton = new Button();
+
+    @FXML
     Button addBurgerButton = new Button();
+
+    @FXML
     Button addSaladButton = new Button();
+
+    @FXML
     Button addSandwichButton = new Button();
+
+    @FXML
     Button addSpaghettiButton = new Button();
+
+    @FXML
     Button payButton = new Button();
+
+    @FXML
     TextField seedText = new TextField();
 
     @FXML
