@@ -16,6 +16,14 @@ public class PrimaryController {
     Button addSodaButton = new Button();
 
     @FXML
+    private void displayInput() throws IOException
+    {
+        String output = "You added a soda to your order.";
+
+        System.out.println(output);
+    }
+
+    @FXML
     Button addWaterButton = new Button();
 
     @FXML
@@ -38,6 +46,6 @@ public class PrimaryController {
 
     @FXML
     private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
+        App.setRoot("Continue");
     }
 }

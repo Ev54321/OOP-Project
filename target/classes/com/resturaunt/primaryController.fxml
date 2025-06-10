@@ -42,7 +42,7 @@
                         <Insets bottom="5.0" />
                      </padding>
                   </Label>
-                  <Button fx:id="addSodaButton" mnemonicParsing="false" text="Button" />
+                  <Button fx:id="addSodaButton" mnemonicParsing="false" text="Button" onAction="#displayInput"/>
                </children>
                <opaqueInsets>
                   <Insets right="10.0" />
@@ -177,7 +177,7 @@
                         <Insets bottom="10.0" />
                      </VBox.margin>
                   </TextField>
-                  <Button fx:id="payButton" mnemonicParsing="false" prefWidth="180.0" text="Pay now" />
+                  <Button fx:id="payButton" mnemonicParsing="false" prefWidth="180.0" text="Continue" onAction="#switchToSecondary"/>
                </children>
             </VBox>
          </children>
