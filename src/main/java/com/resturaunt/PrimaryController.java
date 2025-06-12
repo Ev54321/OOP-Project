@@ -27,16 +27,56 @@ public class PrimaryController {
     Button addWaterButton = new Button();
 
     @FXML
+    private void displayInput2() throws IOException
+    {
+        String output = "You added a water to your order.";
+
+        System.out.println(output);
+    }
+
+    @FXML
     Button addBurgerButton = new Button();
+
+    @FXML
+    private void displayInput3() throws IOException
+    {
+        String output = "You added a burger to your order.";
+
+        System.out.println(output);
+    }
 
     @FXML
     Button addSaladButton = new Button();
 
     @FXML
+    private void displayInput4() throws IOException
+    {
+        String output = "You added a salad to your order.";
+
+        System.out.println(output);
+    }
+
+    @FXML
     Button addSandwichButton = new Button();
 
     @FXML
+    private void displayInput5() throws IOException
+    {
+        String output = "You added a sandwich to your order.";
+
+        System.out.println(output);
+    }
+
+    @FXML
     Button addSpaghettiButton = new Button();
+
+    @FXML
+    private void displayInput6() throws IOException
+    {
+        String output = "You added a spaghetti to your order.";
+
+        System.out.println(output);
+    }
 
     @FXML
     Button payButton = new Button();

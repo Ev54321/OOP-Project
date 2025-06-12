@@ -61,7 +61,7 @@
                         <Insets bottom="5.0" />
                      </padding>
                   </Label>
-                  <Button fx:id="addWaterButton" mnemonicParsing="false" text="Button" />
+                  <Button fx:id="addWaterButton" mnemonicParsing="false" text="Button" onAction="#displayInput2"/>
                </children>
                <opaqueInsets>
                   <Insets left="10.0" />
@@ -87,7 +87,7 @@
                         <Insets bottom="5.0" />
                      </padding>
                   </Label>
-                  <Button fx:id="addBurgerButton" mnemonicParsing="false" text="Button" />
+                  <Button fx:id="addBurgerButton" mnemonicParsing="false" text="Button" onAction="#displayInput3"/>
                </children>
                <opaqueInsets>
                   <Insets right="10.0" />
@@ -106,7 +106,7 @@
                         <Insets bottom="5.0" />
                      </padding>
                   </Label>
-                  <Button fx:id="addSaladButton" mnemonicParsing="false" text="Button" />
+                  <Button fx:id="addSaladButton" mnemonicParsing="false" text="Button" onAction="#displayInput4"/>
                </children>
                <opaqueInsets>
                   <Insets left="10.0" />
